@@ -6,22 +6,49 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <link rel="stylesheet" href="styles.css" />
   <title>Methods for Adding CSS</title>
-  <style>
+
+    <style>
+
+    * { background-color: #202020;
+
+    </style>
+      
+   <style>
+
     p{
+      color: white;
       text-align: left;
       position: absolute;
-      top: 43%;
-      left: 15%;
+      top: 30%;
+      left: 2%;
       font-size: 40px;
       background-color: green;
       width: 1300px;
-
     }
-  </style>
+
+    </style>
+
 </head>
+
 <body>
+
+    <style>
+
+    .whitebox{
+      position: relative;
+      left: 15%;
+      top: 300px;
+      background-color: white;
+      width: 1350px;
+      height: 300px
+    }
+    
+    </style>
+    
+  <div class="whitebox"> 
     <div id="line1">Style me via the external method!</div>
     <p id="line2">I would like to be styled with the internal method, please.</p>
-    <button id="line3">Inline Method</button>
+    <button style="font-size: 44px; position: absolute; top: 70%; left: 2%; color: black; background-color: orange;">Inline Method</button>
+  </div>
 </body>
 </html>
