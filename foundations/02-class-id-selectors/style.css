@@ -1,0 +1,18 @@
+.odd {
+    background-color: rgb(250, 160, 160);
+}
+
+#second {
+    font-size: 36px;
+    color: blue;
+}
+
+.third{
+    font-size: 24px;
+}
+
+#fourth{
+    font-size: 24px;
+    font-weight: bold;
+    background-color: rgb(144, 238, 144);
+}
