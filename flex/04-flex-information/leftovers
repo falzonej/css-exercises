@@ -1,0 +1,34 @@
+
+.barberry{
+  display:flex;
+  flex-direction: column;
+  
+
+}
+
+.chili{
+  display:flex;
+  flex-direction: column;
+}
+
+.pepper{
+  display:flex;
+  flex-direction: column;
+}
+
+.saffron{
+  display:flex;
+  flex-direction: column;
+}
+
+
+<div class="barberry">
+
+
+- All items are centered on the page (horizontally, not vertically).
+- The title is centered on the page.
+- There is 32px between the title and the 'items.'
+- There is 52px between each item.
+- The items are arranged horizontally on the page.
+- The items are only 200px wide and the text wraps.
+- The item text is centered.
